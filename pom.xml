@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.github.squirrelgrip</groupId>
-        <artifactId>root</artifactId>
-        <version>1.0.12</version>
+        <artifactId>dependencies</artifactId>
+        <version>1.6.1</version>
     </parent>
     <artifactId>qif</artifactId>
     <version>1.0.3-SNAPSHOT</version>

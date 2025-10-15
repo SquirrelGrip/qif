@@ -150,7 +150,7 @@ class QifReader @JvmOverloads constructor(
             try {
                 val line = reader!!.readLine()
                 if (line.startsWith("!Type:")) {
-                    qifType = QifType.valueOf(line.substring(6).toUpperCase())
+                    qifType = QifType.valueOf(line.substring(6).uppercase())
                 } else {
                     throw QifReaderException("File Format is not a QIF format")
                 }
